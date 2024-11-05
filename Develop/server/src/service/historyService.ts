@@ -1,3 +1,8 @@
+import { fileURLToPath } from 'node:url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+
 // Define a City class with name and id properties
 class City {
   constructor(public id: string, public name: string) {}
